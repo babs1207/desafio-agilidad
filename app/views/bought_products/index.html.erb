@@ -1,0 +1,7 @@
+<h1>My boughts</h1>
+  <% @my_boughts.each do |bought| %>
+    <li>
+      <%= "name product: #{bought.product.name} || product price: #{bought.product.price}" %>
+    </li>
+  <% end %>
+</ul>
